@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectSphere - Modern Social Media</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-globe-americas"></i>
+                    <span>ConnectSphere</span>
+                </div>
+                
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search ConnectSphere...">
+                </div>
+                
+                <div class="nav-icons">
+                    <a href="#"><i class="fas fa-home"></i></a>
+                    <a href="#">
+                        <i class="fas fa-user-friends"></i>
+                        <span class="notification-badge">3</span>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-comment-dots"></i>
+                        <span class="notification-badge">5</span>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-bell"></i>
+                        <span class="notification-badge">12</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="main-content">
+            <!-- Left Sidebar -->
+            <div class="sidebar">
+                <div class="user-profile">
+                    <div class="avatar">JS</div>
+                    <div class="user-info">
+                        <h3>Jane Smith</h3>
+                        <p>@janesmith</p>
+                    </div>
+                </div>
+                
+                <ul class="sidebar-menu">
+                    <li><a href="#" class="active"><i class="fas fa-home"></i> News Feed</a></li>
+                    <li><a href="#"><i class="fas fa-user-friends"></i> Friends</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Groups</a></li>
+                    <li><a href="#"><i class="fas fa-calendar-alt"></i> Events</a></li>
+                    <li><a href="#"><i class="fas fa-images"></i> Photos</a></li>
+                    <li><a href="#"><i class="fas fa-video"></i> Videos</a></li>
+                    <li><a href="#"><i class="fas fa-store"></i> Marketplace</a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                </ul>
+            </div>
+            
+            <!-- Feed -->
+            <div class="feed">
+                <!-- Create Post -->
+                <div class="create-post">
+                    <div class="post-input">
+                        <div class="avatar">JS</div>
+                        <textarea placeholder="What's on your mind, Jane?"></textarea>
+                    </div>
+                    
+                    <div class="post-actions">
+                        <div class="action-icons">
+                            <div class="action-icon">
+                                <i class="fas fa-image"></i>
+                                <span>Photo</span>
+                            </div>
+                            <div class="action-icon">
+                                <i class="fas fa-video"></i>
+                                <span>Video</span>
+                            </div>
+                            <div class="action-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Location</span>
+                            </div>
+                        </div>
+                        
+                        <button class="post-btn">Post</button>
+                    </div>
+                </div>
+                
+                <!-- Posts -->
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <div class="avatar" style="background: linear-gradient(135deg, #ff6b6b, #ff8e8e);">MD</div>
+                            <div class="post-user-info">
+                                <h4>Mike Davis</h4>
+                                <span>2 hrs ago · <i class="fas fa-globe-americas"></i></span>
+                            </div>
+                        </div>
+                        <div class="post-options">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="post-content">
+                        <p>Just finished my morning hike! The view was absolutely breathtaking. 🏞️</p>
+                    </div>
+                    
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Mountain view" class="post-image">
+                    
+                    <div class="post-stats">
+                        <div class="likes">
+                            <i class="fas fa-thumbs-up"></i> 124
+                        </div>
+                        <div class="comments">
+                            23 comments · 5 shares
+                        </div>
+                    </div>
+                    
+                    <div class="post-engagement">
+                        <div class="engagement-btn">
+                            <i class="far fa-thumbs-up"></i>
+                            <span>Like</span>
+                        </div>
+                        <div class="engagement-btn">
+                            <i class="far fa-comment"></i>
+                            <span>Comment</span>
+                        </div>
+                        <div class="engagement-btn">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <div class="avatar" style="background: linear-gradient(135deg, #4ecdc4, #44a08d);">SG</div>
+                            <div class="post-user-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>5 hrs ago · <i class="fas fa-user-friends"></i></span>
+                            </div>
+                        </div>
+                        <div class="post-options">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="post-content">
+                        <p>Just launched my new website! Check it out and let me know what you think. I've been working on this project for months and I'm so excited to share it with everyone! 🚀</p>
+                    </div>
+                    
+                    <div class="post-stats">
+                        <div class="likes">
+                            <i class="fas fa-thumbs-up"></i> 89
+                        </div>
+                        <div class="comments">
+                            42 comments · 12 shares
+                        </div>
+                    </div>
+                    
+                    <div class="post-engagement">
+                        <div class="engagement-btn active">
+                            <i class="fas fa-thumbs-up"></i>
+                            <span>Like</span>
+                        </div>
+                        <div class="engagement-btn">
+                            <i class="far fa-comment"></i>
+                            <span>Comment</span>
+                        </div>
+                        <div class="engagement-btn">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Sidebar -->
+            <div class="right-sidebar">
+                <!-- Stories -->
+                <div class="widget">
+                    <div class="widget-title">
+                        <h3>Stories</h3>
+                        <a href="#">See All</a>
+                    </div>
+                    
+                    <div class="stories">
+                        <div class="story">
+                            <div class="story-avatar story-add">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <div class="story-username">Your Story</div>
+                        </div>
+                        <div class="story">
+                            <div class="story-avatar" style="background: linear-gradient(135deg, #ff6b6b, #ff8e8e);">MD</div>
+                            <div class="story-username">Mike</div>
+                        </div>
+                        <div class="story">
+                            <div class="story-avatar" style="background: linear-gradient(135deg, #4ecdc4, #44a08d);">SJ</div>
+                            <div class="story-username">Sarah</div>
+                        </div>
+                        <div class="story">
+                            <div class="story-avatar" style="background: linear-gradient(135deg, #ffd166, #ffb347);">AR</div>
+                            <div class="story-username">Alex</div>
+                        </div>
+                        <div class="story">
+                            <div class="story-avatar" style="background: linear-gradient(135deg, #a882dd, #8a5bd6);">EJ</div>
+                            <div class="story-username">Emma</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Suggestions -->
+                <div class="widget">
+                    <div class="widget-title">
+                        <h3>People You May Know</h3>
+                        <a href="#">See All</a>
+                    </div>
+                    
+                    <div class="suggestion">
+                        <div class="avatar" style="background: linear-gradient(135deg, #ffd166, #ffb347);">AR</div>
+                        <div class="suggestion-info">
+                            <h4>Alex Rodriguez</h4>
+                            <p>12 mutual friends</p>
+                        </div>
+                        <button class="follow-btn">Add</button>
+                    </div>
+                    
+                    <div class="suggestion">
+                        <div class="avatar" style="background: linear-gradient(135deg, #a882dd, #8a5bd6);">EJ</div>
+                        <div class="suggestion-info">
+                            <h4>Emma Johnson</h4>
+                            <p>5 mutual friends</p>
+                        </div>
+                        <button class="follow-btn">Add</button>
+                    </div>
+                    
+                    <div class="suggestion">
+                        <div class="avatar" style="background: linear-gradient(135deg, #06d6a0, #04a777);">TW</div>
+                        <div class="suggestion-info">
+                            <h4>Thomas Wilson</h4>
+                            <p>8 mutual friends</p>
+                        </div>
+                        <button class="follow-btn">Add</button>
+                    </div>
+                </div>
+                
+                <!-- Events -->
+                <div class="widget">
+                    <div class="widget-title">
+                        <h3>Upcoming Events</h3>
+                        <a href="#">See All</a>
+                    </div>
+                    
+                    <div class="event">
+                        <div class="event-date">
+                            <div class="day">15</div>
+                            <div class="month">JUN</div>
+                        </div>
+                        <div class="event-details">
+                            <h4>Tech Conference 2023</h4>
+                            <p>San Francisco, CA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="event">
+                        <div class="event-date">
+                            <div class="day">22</div>
+                            <div class="month">JUN</div>
+                        </div>
+                        <div class="event-details">
+                            <h4>Summer Music Festival</h4>
+                            <p>Central Park, NY</p>
+                        </div>
+                    </div>
+                    
+                    <div class="event">
+                        <div class="event-date">
+                            <div class="day">05</div>
+                            <div class="month">JUL</div>
+                        </div>
+                        <div class="event-details">
+                            <h4>Food & Wine Expo</h4>
+                            <p>Chicago, IL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>ConnectSphere</h3>
+                    <p>Bringing people together through shared experiences and meaningful connections.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Groups</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Marketplace</a></li>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">ConnectPay</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Safety Center</a></li>
+                        <li><a href="#">Community Standards</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2023 ConnectSphere. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
